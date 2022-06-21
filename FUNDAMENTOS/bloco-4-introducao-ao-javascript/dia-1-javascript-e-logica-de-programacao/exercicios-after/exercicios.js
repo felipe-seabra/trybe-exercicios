@@ -49,3 +49,14 @@ if (num1 > num2 && num1 > num3) {
 }else {
     console.log("Tem algo errado");
 }
+
+//ex 4:
+const valor = 0;
+
+if (valor > 0) {
+    console.log("positive");
+}else if (valor < 0) {
+    console.log("negative");
+}else {
+    console.log("zero");
+}
