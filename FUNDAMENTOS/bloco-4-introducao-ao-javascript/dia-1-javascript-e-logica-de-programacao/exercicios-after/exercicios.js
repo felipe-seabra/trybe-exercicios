@@ -27,3 +27,10 @@ console.log(resultado);
 
 resultado = a % b;
 console.log(resultado);
+
+//ex 2:
+if (a > b) {
+    console.log("A é maior que B");
+}else {
+    console.log("B é maior que A");
+}
