@@ -6,19 +6,34 @@
   color: rgb(77, 76, 76);
 }
 
+body {
+  background: #ffffff url(images/background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
 .container {
   display: flex;
-  width: 90%;
+  width: 500px;
   margin: 40px auto;
   padding: 30px;
   background-color: rgb(233, 230, 230);
-  border: 1px solid rgb(211, 210, 210);
+  border: 1px solid rgb(146, 144, 144);
   border-radius: 10px;
   justify-content: center;
 }
 
 .line-spacing {
-  margin-top: 10px;
+  margin-top: 12px;
+}
+
+fieldset {
+  padding: 15px;
+}
+
+fieldset label {
+  margin-right: 10px;
 }
 
 .line-spacing label {
@@ -26,8 +41,7 @@
 }
 
 .container form input:first-child {
-  display: inline-block;
-  padding: 10px 100px 10px 10px;
+  padding: 10px 200px 10px 10px;
   border: 2px solid rgb(211, 210, 210);
   border-radius: 10px;
   outline: none;
@@ -36,11 +50,47 @@
 textarea {
   margin-top: 5px;
   resize: none;
+  padding: 5px;
+  border-radius: 5px;
+  width: 500px;
+  height: 100px;
 }
 
-button {
+#date {
+  padding: 7px 15px 7px 10px;
+}
+
+.btn {
   padding: 5px 30px;
   border-radius: 5px;
   border: 1px solid;
   margin-right: 5px;
+}
+
+.block {
+  width: 500px;
+}
+
+.block #name {
+  position: relative;
+  left: 7px;
+}
+
+.block #email {
+  position: relative;
+  left: 10px;
+}
+
+.concorda label {
+  font-size: small;
+}
+
+footer {
+  background-color: rgb(233, 230, 230);
+  width: 100%;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  font-size: small;
 }
