@@ -13,6 +13,7 @@
 body {
   font-size: 1.3em;
   margin: 5%;
+  text-align: center;
 }
 
 article {
@@ -49,7 +50,22 @@ figcaption {
 
 @media screen and (min-width: 768px) {
   body {
-    background-color: brown;
+    background: lightblue;
+    font-size: 1.8em;
+    margin: 0 20%;
+  }
+
+  section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* flex-basis: 33%; */
+  }
+
+  section figure{
+    flex-basis: 45%;
+    margin: 0 5px 0 0;
   }
   
 }
