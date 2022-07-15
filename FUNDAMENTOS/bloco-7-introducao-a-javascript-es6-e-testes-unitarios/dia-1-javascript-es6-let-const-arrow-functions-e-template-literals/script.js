@@ -1,8 +1,9 @@
 const btnCount = document.querySelector('.btn-count');
 const counter = document.getElementById('count');
 
-btnCount.addEventListener('click', () => {
+const clickCount = () => {
   let cont = parseFloat(counter.innerText);
-  cont += 1;
-  counter.innerText = cont;
-})
+  counter.innerText = cont += 1;
+}
+
+btnCount.addEventListener('click', clickCount);
