@@ -18,7 +18,7 @@
   <p id='result'></p>
   <script>
     const verifyIsNumber = (value1, value2) => {
-      if (isNaN(value1) || isNaN(value2)) {
+      if (isNaN(value1) || isNaN(value2) || value1 === '' || value2 === '') {
         throw new Error('Os valores devem ser numéricos');
       }
     };
