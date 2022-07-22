@@ -4,7 +4,7 @@ const returnEmail = (name) => {
   return {
     nomeCompleto: name,
     email: name.toLowerCase().split(' ').join('') + `@trybe.com`,
-  }
+  };
 };
 
 const newEmployees = () => {
